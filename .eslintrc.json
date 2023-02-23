@@ -1,0 +1,52 @@
+{
+  "extends": [
+    "airbnb-typescript",
+    "airbnb/hooks",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:jest/recommended",
+    "prettier",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": ["react", "@typescript-eslint", "jest"],
+  "env": {
+    "browser": true,
+    "node": false,
+    "es6": true,
+    "jest": true
+  },
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "project": ["./tsconfig.json"]
+  },
+  "root": true,
+  "rules": {
+    "linebreak-style": "off",
+    "react/require-default-props": 0,
+    "import/no-cycle": 0,
+    "no-console": ["error", { "allow": ["warn", "error"] }],
+    "@typescript-eslint/ban-ts-comment": 0,
+    "react/prop-types": 0,
+    "react/destructuring-assignment": 0,
+    "react/default-props-match-prop-types": 0,
+    "react/no-unused-prop-types": 0,
+    "react/react-in-jsx-scope": 0,
+    "import/no-extraneous-dependencies": 0,
+    "jsx-a11y/label-has-associated-control": 0,
+    "import/extensions": 0,
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ]
+  }
+}

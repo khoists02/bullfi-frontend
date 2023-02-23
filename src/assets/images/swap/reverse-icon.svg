@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="40" viewBox="0 0 48 40">
+  <g id="reverse-icon" transform="translate(-781 -328)">
+    <rect id="Rectangle_11093" data-name="Rectangle 11093" width="48" height="40" rx="3" transform="translate(781 328)" fill="rgba(255,255,255,0.11)" opacity="0.5"/>
+    <path id="sorting" d="M17.881,19.474l4.151,4.151a1.038,1.038,0,0,0,1.468,0l4.151-4.151a1.038,1.038,0,0,0-1.468-1.468L23.8,20.386V6.288a1.038,1.038,0,0,0-2.075,0v14.1l-2.379-2.379a1.038,1.038,0,1,0-1.468,1.468ZM10.173,5.554a1.038,1.038,0,0,0-1.468,0L4.554,9.7a1.038,1.038,0,1,0,1.468,1.468L8.4,8.793v14.1a1.038,1.038,0,0,0,2.075,0V8.793l2.379,2.379A1.038,1.038,0,1,0,14.323,9.7Z" transform="translate(789.148 333.41)" fill="#fff" fill-rule="evenodd"/>
+  </g>
+</svg>
