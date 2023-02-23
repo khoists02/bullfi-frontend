@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39" height="46" viewBox="0 0 39 46">
+  <defs>
+    <filter id="launch-app-arrow" x="0" y="0" width="39" height="46" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#747474"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="launch-app-arrow-2" data-name="launch-app-arrow" transform="translate(-1114 -771)">
+    <rect id="Rectangle_9301" data-name="Rectangle 9301" width="16" height="16" transform="translate(1126 786)" fill="none"/>
+    <g transform="matrix(1, 0, 0, 1, 1114, 771)" filter="url(#launch-app-arrow)">
+      <path id="launch-app-arrow-3" data-name="launch-app-arrow" d="M151.358,2307.837l-1.345-1.406,6.31-6.594-6.31-6.594,1.345-1.406,7.655,8Z" transform="translate(-135.01 -2276.84)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
