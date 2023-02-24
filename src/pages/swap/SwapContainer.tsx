@@ -1,4 +1,4 @@
-import React, { FC, useEffect, useMemo, useState } from "react";
+import React, { FC, useCallback, useEffect, useMemo, useState } from "react";
 import CryptoConvert from "crypto-convert";
 import Bar from "../../assets/images/swap/bar.svg";
 import Reverse from "../../assets/images/swap/reverse-icon.svg";
@@ -9,6 +9,12 @@ import { IToken, SelectTokenModal } from "../../components/SelectTokenModal";
 // import DataJson from "../../assets/data.json";
 import ReverseIcon from "../../assets/images/reverse-small-icon.png";
 import RouteArrowRight from "../../assets/images/route-arrow.svg";
+import { TransactionSetting } from "../../components/TransactionSetting";
+
+export interface ISetting {
+  minutes?: number;
+  slippageTolerance?: string;
+}
 
 const options = {
   cryptoInterval: 5000, //Crypto prices update interval in ms (default 5 seconds on Node.js & 15 seconds on Browsers)
@@ -21,13 +27,16 @@ const options = {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars, @typescript-eslint/no-explicit-any
   onUpdate: (tickers: any, isFiatUpdate?: any) => {
     // eslint-disable-next-line no-console
-    console.log({ tickers });
   }, //Callback on every crypto update
   HTTPAgent: null, //HTTP Agent for server-side proxies (Node.js only)
 };
 
 const convert = new CryptoConvert(options);
 const SwapContainer: FC = () => {
+  const [settings, setSettings] = useState<ISetting>({
+    minutes: 20,
+    slippageTolerance: "0.1",
+  });
   const [isTo, setIsTo] = useState(false);
   const [showModalToken, setShownModalToken] = useState(false);
   const [selectedTokenFrom, setSelectedTokenFrom] = useState<IToken>({
@@ -42,7 +51,7 @@ const SwapContainer: FC = () => {
     description: "ETH Coin",
     icon: ETH,
   });
-
+  const [showSetting, setShowSetting] = useState(false);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [loaded, setLoaded] = useState(false);
@@ -56,19 +65,28 @@ const SwapContainer: FC = () => {
     return bnbFloat;
   };
 
-  const convertFromToCurrency = async (from: IToken, to: IToken) => {
+  const convertFromToCurrency = async (
+    from: IToken,
+    to: IToken,
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    setting: ISetting
+  ) => {
     if (!from.value || from.value <= 0) return;
     setErrorMessage(null);
     setLoaded(true);
     await convert.ready();
     setLoaded(false);
     // eslint-disable-next-line no-console
-    console.log(convert.list);
     // @ts-ignore
     const fromVal = convertFunctions(from.name, from.value);
     const toVal = convertFunctions(to.name, from.value);
     if (fromVal && fromVal > 0 && toVal && toVal > 0) {
       const valueConverted = (fromVal / toVal) * from.value;
+      // setting && setting.slippageTolerance
+      //   ? (fromVal / toVal) * from.value -
+      //     parseFloat(settings.slippageTolerance || "0") / 100
+      //   : (fromVal / toVal) * from.value;
+
       setToValue(valueConverted);
       setErrorMessage(null);
     } else {
@@ -78,9 +96,9 @@ const SwapContainer: FC = () => {
   };
 
   useEffect(() => {
-    convertFromToCurrency(selectedTokenFrom, selectedTokenTo);
+    convertFromToCurrency(selectedTokenFrom, selectedTokenTo, settings);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedTokenFrom, selectedTokenTo]);
+  }, [selectedTokenFrom, selectedTokenTo, settings]);
 
   const [reserve, setReserve] = useState(false);
 
@@ -113,7 +131,7 @@ const SwapContainer: FC = () => {
               <p className="f-f-fg text-[23px] md:text-[27px] leading-10 text-white font-semibold">
                 Swap
               </p>
-              <button className="">
+              <button className="" onClick={() => setShowSetting(!showSetting)}>
                 <img alt="" src={Bar} />
               </button>
             </div>
@@ -314,6 +332,16 @@ const SwapContainer: FC = () => {
               </>
             )}
           </div>
+          <TransactionSetting
+            selectMinutes={(val) => {
+              setSettings({ ...settings, minutes: parseInt(val, 10) });
+            }}
+            selectSlippageTolerance={(val) => {
+              setSettings({ ...settings, slippageTolerance: val });
+            }}
+            settings={settings}
+            show={showSetting}
+          />
         </div>
       </div>
     </div>
