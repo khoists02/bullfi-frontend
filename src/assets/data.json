@@ -1,0 +1,626 @@
+[
+  {
+    "name": "1INCH Token",
+    "symbol": "1INCH",
+    "price": 0.629005,
+    "decimals": 18,
+    "address": "0x111111111117dc0aa78b770fa6a738034120c302",
+    "logoURI": "https://thena.fi/images/tokens/1INCH.png"
+  },
+  {
+    "name": "Cardano Token",
+    "symbol": "ADA",
+    "price": 0.38605,
+    "decimals": 18,
+    "address": "0x3ee2200efb3400fabb9aacf31297cbdd1d435d47",
+    "logoURI": "https://thena.fi/images/tokens/ADA.png"
+  },
+  {
+    "name": "Ankr",
+    "symbol": "ANKR",
+    "price": 0.051089,
+    "decimals": 18,
+    "address": "0xf307910a4c7bbc79691fd374889b36d8531b08e3",
+    "logoURI": "https://thena.fi/images/tokens/ANKR.png"
+  },
+  {
+    "name": "Ankr Reward Bearing BNB",
+    "symbol": "ankrBNB",
+    "price": 322.14,
+    "decimals": 18,
+    "address": "0x52f24a5e03aee338da5fd9df68d2b6fae1178827",
+    "logoURI": "https://thena.fi/images/tokens/ankrBNB.png"
+  },
+  {
+    "name": "Ankr Staked ETH",
+    "symbol": "ankrETH",
+    "price": 1761.33,
+    "decimals": 18,
+    "address": "0xe05a08226c49b636acf99c40da8dc6af83ce5bb3",
+    "logoURI": "https://thena.fi/images/tokens/ankrETH.png"
+  },
+  {
+    "name": "Ankr Staked MATIC",
+    "symbol": "ankrMATIC",
+    "price": 1.52,
+    "decimals": 18,
+    "address": "0x738d96caf7096659db4c1afbf1e1bdfd281f388c",
+    "logoURI": "https://thena.fi/images/tokens/ankrMATIC.png"
+  },
+  {
+    "name": "ApeCoin",
+    "symbol": "APE",
+    "price": 5.53,
+    "decimals": 18,
+    "address": "0xc762043e211571eb34f1ef377e5e8e76914962f9",
+    "logoURI": "https://thena.fi/images/tokens/APE.png"
+  },
+  {
+    "name": "Cosmos Token",
+    "symbol": "ATOM",
+    "price": 13.65,
+    "decimals": 18,
+    "address": "0x0eb3a705fc54725037cc9e008bdede697f62f335",
+    "logoURI": "https://thena.fi/images/tokens/ATOM.png"
+  },
+  {
+    "name": "Avalanche",
+    "symbol": "AVAX",
+    "price": 19.99,
+    "decimals": 18,
+    "address": "0x1ce0c2827e2ef14d5c4f29a091d735a204794041",
+    "logoURI": "https://thena.fi/images/tokens/AVAX.png"
+  },
+  {
+    "name": "Bitcoin Cash Token",
+    "symbol": "BCH",
+    "price": 140.22,
+    "decimals": 18,
+    "address": "0x8ff795a6f4d97e7887c79bea79aba5cc76444adf",
+    "logoURI": "https://thena.fi/images/tokens/BCH.png"
+  },
+  {
+    "name": "beefy.finance",
+    "symbol": "BIFI",
+    "price": 479.69,
+    "decimals": 18,
+    "address": "0xca3f508b8e4dd382ee878a314789373d80a5190a",
+    "logoURI": "https://thena.fi/images/tokens/BIFI.png"
+  },
+  {
+    "name": "Liquid Staking BNB",
+    "symbol": "BNBx",
+    "price": 323.82,
+    "decimals": 18,
+    "address": "0x1bdd3cf7f79cfb8edbb955f20ad99211551ba275",
+    "logoURI": "https://thena.fi/images/tokens/BNBx.png"
+  },
+  {
+    "name": "Brokoli Token",
+    "symbol": "BRKL",
+    "price": 0.0269336,
+    "decimals": 18,
+    "address": "0x66cafcf6c32315623c7ffd3f2ff690aa36ebed38",
+    "logoURI": "https://thena.fi/images/tokens/BRKL.png"
+  },
+  {
+    "name": "BRZ Token",
+    "symbol": "BRZ",
+    "price": 0.210789,
+    "decimals": 4,
+    "address": "0x71be881e9c5d4465b3fff61e89c6f3651e69b5bb",
+    "logoURI": "https://thena.fi/images/tokens/BRZ.png"
+  },
+  {
+    "name": "BTCB Token",
+    "symbol": "BTCB",
+    "price": 23874,
+    "decimals": 18,
+    "address": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c",
+    "logoURI": "https://thena.fi/images/tokens/BTCB.png"
+  },
+  {
+    "name": "BUSD Token",
+    "symbol": "BUSD",
+    "price": 1.0105589946790718,
+    "decimals": 18,
+    "address": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+    "logoURI": "https://thena.fi/images/tokens/BUSD.png"
+  },
+  {
+    "name": "Coin98",
+    "symbol": "C98",
+    "price": 0.318426,
+    "decimals": 18,
+    "address": "0xaec945e04baf28b135fa7c640f624f8d90f1c3a6",
+    "logoURI": "https://thena.fi/images/tokens/C98.png"
+  },
+  {
+    "name": "Champion",
+    "symbol": "CHAM",
+    "price": 3.08,
+    "decimals": 18,
+    "address": "0xc95cd75dcea473a30c8470b232b36ee72ae5dcc2",
+    "logoURI": "https://thena.fi/images/tokens/CHAM.png"
+  },
+  {
+    "name": "Coin98 Dollar",
+    "symbol": "CUSD",
+    "price": 0.997399,
+    "decimals": 18,
+    "address": "0xfa4ba88cf97e282c505bea095297786c16070129",
+    "logoURI": "https://thena.fi/images/tokens/CUSD.png"
+  },
+  {
+    "name": "Dai Token",
+    "symbol": "DAI",
+    "price": 1,
+    "decimals": 18,
+    "address": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
+    "logoURI": "https://thena.fi/images/tokens/DAI.png"
+  },
+  {
+    "name": "DAO Maker",
+    "symbol": "DAO",
+    "price": 1.38,
+    "decimals": 18,
+    "address": "0x4d2d32d8652058bf98c772953e1df5c5c85d9f45",
+    "logoURI": "https://thena.fi/images/tokens/DAO.png"
+  },
+  {
+    "name": "DEI",
+    "symbol": "DEI",
+    "price": 1.0001,
+    "decimals": 18,
+    "address": "0xde1e704dae0b4051e80dabb26ab6ad6c12262da0",
+    "logoURI": "https://thena.fi/images/tokens/DEI.png"
+  },
+  {
+    "name": "DEUS",
+    "symbol": "DEUS",
+    "price": 64.69,
+    "decimals": 18,
+    "address": "0xde5ed76e7c05ec5e4572cfc88d1acea165109e44",
+    "logoURI": "https://thena.fi/images/tokens/DEUS.png"
+  },
+  {
+    "name": "Dogecoin",
+    "symbol": "DOGE",
+    "price": 0.084679,
+    "decimals": 8,
+    "address": "0xba2ae424d960c26247dd6c32edc70b295c744c43",
+    "logoURI": "https://thena.fi/images/tokens/DOGE.png"
+  },
+  {
+    "name": "Dola USD Stablecoin",
+    "symbol": "DOLA",
+    "price": 0.992364,
+    "decimals": 18,
+    "address": "0x2f29bc0ffaf9bff337b31cbe6cb5fb3bf12e5840",
+    "logoURI": "https://thena.fi/images/tokens/DOLA.png"
+  },
+  {
+    "name": "dXCAD Token",
+    "symbol": "dXCAD",
+    "price": 9.42,
+    "decimals": 18,
+    "address": "0xd51822f8427563cbb5ba19f7183b36d095c47a02",
+    "logoURI": "https://thena.fi/images/tokens/dXCAD.png"
+  },
+  {
+    "name": "Ethereum Token",
+    "symbol": "ETH",
+    "price": 1642.5,
+    "decimals": 18,
+    "address": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+    "logoURI": "https://thena.fi/images/tokens/ETH.png"
+  },
+  {
+    "name": "eTHENA",
+    "symbol": "eTHENA",
+    "price": 0.5546,
+    "decimals": 18,
+    "address": "0xafbe3b8b0939a5538de32f7752a78e08c8492295",
+    "logoURI": "https://thena.fi/images/tokens/eTHENA.png"
+  },
+  {
+    "name": "ETS Alpha",
+    "symbol": "ETS",
+    "price": 1.0022,
+    "decimals": 18,
+    "address": "0x5b852898cd47d2be1d77d30377b3642290f5ec75",
+    "logoURI": "https://thena.fi/images/tokens/ETS.png"
+  },
+  {
+    "name": "Fantom Bomb",
+    "symbol": "fBOMB",
+    "price": 0.01125151,
+    "decimals": 18,
+    "address": "0x74ccbe53f77b08632ce0cb91d3a545bf6b8e0979",
+    "logoURI": "https://thena.fi/images/tokens/fBOMB.png"
+  },
+  {
+    "name": "Fear NFTs",
+    "symbol": "FEAR",
+    "price": 0.192146,
+    "decimals": 18,
+    "address": "0x9ba6a67a6f3b21705a46b380a1b97373a33da311",
+    "logoURI": "https://thena.fi/images/tokens/FEAR.png"
+  },
+  {
+    "name": "Filecoin",
+    "symbol": "FIL",
+    "price": 7.87,
+    "decimals": 18,
+    "address": "0x0d8ce2a99bb6e3b7db580ed848240e4a0f9ae153",
+    "logoURI": "https://thena.fi/images/tokens/FIL.png"
+  },
+  {
+    "name": "STEP.APP",
+    "symbol": "FITFI",
+    "price": 0.02506,
+    "decimals": 18,
+    "address": "0x7588df009c3d82378be6ab81f2108fa963c10fc8",
+    "logoURI": "https://thena.fi/images/tokens/FITFI.png"
+  },
+  {
+    "name": "FLOKI",
+    "symbol": "FLOKI",
+    "price": 0.00005044,
+    "decimals": 9,
+    "address": "0xfb5b838b6cfeedc2873ab27866079ac55363d37e",
+    "logoURI": "https://thena.fi/images/tokens/FLOKI.png"
+  },
+  {
+    "name": "Frax",
+    "symbol": "FRAX",
+    "price": 0.998667,
+    "decimals": 18,
+    "address": "0x90c97f71e18723b0cf0dfa30ee176ab653e89f40",
+    "logoURI": "https://thena.fi/images/tokens/FRAX.png"
+  },
+  {
+    "name": "Frax Ether",
+    "symbol": "frxETH",
+    "price": 1644.25,
+    "decimals": 18,
+    "address": "0x64048a7eecf3a2f1ba9e144aac3d7db6e58f555e",
+    "logoURI": "https://thena.fi/images/tokens/frxETH.png"
+  },
+  {
+    "name": "FantomStarter",
+    "symbol": "FS",
+    "price": 0.008244,
+    "decimals": 18,
+    "address": "0x1935c03bb7dbc3623bd992ce599bc26bd30a43eb",
+    "logoURI": "https://thena.fi/images/tokens/FS.png"
+  },
+  {
+    "name": "Fantom",
+    "symbol": "FTM",
+    "price": 0.497402,
+    "decimals": 18,
+    "address": "0xad29abb318791d579433d831ed122afeaf29dcfe",
+    "logoURI": "https://thena.fi/images/tokens/FTM.png"
+  },
+  {
+    "name": "Frax Share",
+    "symbol": "FXS",
+    "price": 10.93,
+    "decimals": 18,
+    "address": "0xe48a3d7d0bc88d552f730b62c006bc925eadb9ee",
+    "logoURI": "https://thena.fi/images/tokens/FXS.png"
+  },
+  {
+    "name": "Grizzly Honey",
+    "symbol": "GHNY",
+    "price": 18.32,
+    "decimals": 18,
+    "address": "0xa045e37a0d1dd3a45fefb8803d22457abc0a728a",
+    "logoURI": "https://thena.fi/images/tokens/GHNY.png"
+  },
+  {
+    "name": "Hay Destablecoin",
+    "symbol": "HAY",
+    "price": 1.003,
+    "decimals": 18,
+    "address": "0x0782b6d8c4551b9760e74c0545a9bcd90bdc41e5",
+    "logoURI": "https://thena.fi/images/tokens/HAY.png"
+  },
+  {
+    "name": "Hellhound",
+    "symbol": "HLH",
+    "price": 0,
+    "decimals": 18,
+    "address": "0x88ac7c9fdc4667bdeefde291f2faadba0b0f3318",
+    "logoURI": "https://thena.fi/images/tokens/HLH.png"
+  },
+  {
+    "name": "Impossible Decentralized Incubator Access Token",
+    "symbol": "IDIA",
+    "price": 0.082003,
+    "decimals": 18,
+    "address": "0x0b15ddf19d47e6a86a56148fb4afffc6929bcb89",
+    "logoURI": "https://thena.fi/images/tokens/IDIA.png"
+  },
+  {
+    "name": "Inverse DAO",
+    "symbol": "INV",
+    "price": 59.14,
+    "decimals": 18,
+    "address": "0x4e720dd3ac5cfe1e1fbde4935f386bb1c66f4642",
+    "logoURI": "https://thena.fi/images/tokens/INV.png"
+  },
+  {
+    "name": "Infinity Pad",
+    "symbol": "IPAD",
+    "price": 0.00841602,
+    "decimals": 18,
+    "address": "0xa7266989b0df675cc8257d53b6bc1358faf6626a",
+    "logoURI": "https://thena.fi/images/tokens/IPAD.png"
+  },
+  {
+    "name": "Jarvis Synthetic Brazilian Real",
+    "symbol": "jBRL",
+    "price": 0.210789,
+    "decimals": 18,
+    "address": "0x316622977073bbc3df32e7d2a9b3c77596a0a603",
+    "logoURI": "https://thena.fi/images/tokens/jBRL.png"
+  },
+  {
+    "name": "Jarvis Reward Token",
+    "symbol": "JRT",
+    "price": 0.01228,
+    "decimals": 18,
+    "address": "0x414f9e74ba3a9d0acce65182809492f41ac671e0",
+    "logoURI": "https://thena.fi/images/tokens/JRT.png"
+  },
+  {
+    "name": "Kenshi",
+    "symbol": "KENSHI",
+    "price": 5.78062e-7,
+    "decimals": 18,
+    "address": "0x42f9c5a27a2647a64f7d3d58d8f896c60a727b0f",
+    "logoURI": "https://thena.fi/images/tokens/KENSHI.png"
+  },
+  {
+    "name": "ChainLink Token",
+    "symbol": "LINK",
+    "price": 7.93,
+    "decimals": 18,
+    "address": "0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd",
+    "logoURI": "https://thena.fi/images/tokens/LINK.png"
+  },
+  {
+    "name": "Liquid Driver",
+    "symbol": "LQDR",
+    "price": 1.49,
+    "decimals": 18,
+    "address": "0xe5c6155ed2924e50f998e28eff932d9b5a126974",
+    "logoURI": "https://thena.fi/images/tokens/LQDR.png"
+  },
+  {
+    "name": "Litecoin Token",
+    "symbol": "LTC",
+    "price": 94.53,
+    "decimals": 18,
+    "address": "0x4338665cbb7b2485a8855a139b75d5e34ab0db94",
+    "logoURI": "https://thena.fi/images/tokens/LTC.png"
+  },
+  {
+    "name": "Mai Stablecoin",
+    "symbol": "MAI",
+    "price": 0.996236,
+    "decimals": 18,
+    "address": "0x3f56e0c36d275367b8c502090edf38289b3dea0d",
+    "logoURI": "https://thena.fi/images/tokens/MAI.png"
+  },
+  {
+    "name": "Matic Token",
+    "symbol": "MATIC",
+    "price": 1.36,
+    "decimals": 18,
+    "address": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+    "logoURI": "https://thena.fi/images/tokens/MATIC.png"
+  },
+  {
+    "name": "Mix",
+    "symbol": "MIX",
+    "price": 0.1499,
+    "decimals": 18,
+    "address": "0xb67754f5b4c704a24d2db68e661b2875a4ddd197",
+    "logoURI": "https://thena.fi/images/tokens/MIX.png"
+  },
+  {
+    "name": "Multichain",
+    "symbol": "MULTI",
+    "price": 10.99,
+    "decimals": 18,
+    "address": "0x9fb9a33956351cf4fa040f65a13b835a3c8764e3",
+    "logoURI": "https://thena.fi/images/tokens/MULTI.png"
+  },
+  {
+    "name": "NEAR Protocol",
+    "symbol": "NEAR",
+    "price": 2.48,
+    "decimals": 18,
+    "address": "0x1fa4a73a3f0133f0025378af00236f3abdee5d63",
+    "logoURI": "https://thena.fi/images/tokens/NEAR.png"
+  },
+  {
+    "name": "NFTB",
+    "symbol": "NFTB",
+    "price": 0.02357498,
+    "decimals": 18,
+    "address": "0xde3dbbe30cfa9f437b293294d1fd64b26045c71a",
+    "logoURI": "https://thena.fi/images/tokens/NFTB.png"
+  },
+  {
+    "name": "Oath Token",
+    "symbol": "OATH",
+    "price": 0.256906,
+    "decimals": 18,
+    "address": "0xd3c6ceedd1cc7bd4304f72b011d53441d631e662",
+    "logoURI": "https://thena.fi/images/tokens/OATH.png"
+  },
+  {
+    "name": "PRIMAL Token",
+    "symbol": "PRIMAL",
+    "price": 0.00948242,
+    "decimals": 18,
+    "address": "0xcb5327ed4649548e0d73e70b633cdfd99af6da87",
+    "logoURI": "https://thena.fi/images/tokens/PRIMAL.png"
+  },
+  {
+    "name": "pStake Finance",
+    "symbol": "PSTAKE",
+    "price": 0.135398,
+    "decimals": 18,
+    "address": "0x4c882ec256823ee773b25b414d36f92ef58a7c0c",
+    "logoURI": "https://thena.fi/images/tokens/PSTAKE.png"
+  },
+  {
+    "name": "QiDao",
+    "symbol": "QI",
+    "price": 0.1228,
+    "decimals": 18,
+    "address": "0xddc3d26baa9d2d979f5e2e42515478bf18f354d5",
+    "logoURI": "https://thena.fi/images/tokens/QI.png"
+  },
+  {
+    "name": "Stader",
+    "symbol": "SD",
+    "price": 1.23,
+    "decimals": 18,
+    "address": "0x3bc5ac0dfdc871b365d159f728dd1b9a0b5481e8",
+    "logoURI": "https://thena.fi/images/tokens/SD.png"
+  },
+  {
+    "name": "Staked Frax Ether",
+    "symbol": "sfrxETH",
+    "price": 1664.25,
+    "decimals": 18,
+    "address": "0x3cd55356433c89e50dc51ab07ee0fa0a95623d53",
+    "logoURI": "https://thena.fi/images/tokens/sfrxETH.png"
+  },
+  {
+    "name": "SHIBA INU",
+    "symbol": "SHIB",
+    "price": 0.00001313,
+    "decimals": 18,
+    "address": "0x2859e4544c4bb03966803b044a93563bd2d0dd4d",
+    "logoURI": "https://thena.fi/images/tokens/SHIB.png"
+  },
+  {
+    "name": "SoliMax",
+    "symbol": "SLM",
+    "price": 0.0002873,
+    "decimals": 18,
+    "address": "0xeba457b55fb145ff4451bc50fb6c373e5caa493f",
+    "logoURI": "https://thena.fi/images/tokens/SLM.png"
+  },
+  {
+    "name": "SOLANA",
+    "symbol": "SOL",
+    "price": 23.97,
+    "decimals": 18,
+    "address": "0x570a5d26f7765ecb712c0924e4de545b89fd43df",
+    "logoURI": "https://thena.fi/images/tokens/SOL.png"
+  },
+  {
+    "name": "Staked BNB",
+    "symbol": "stkBNB",
+    "price": 313.6,
+    "decimals": 18,
+    "address": "0xc2e9d07f66a89c44062459a47a0d2dc038e4fb16",
+    "logoURI": "https://thena.fi/images/tokens/stkBNB.png"
+  },
+  {
+    "name": "Tarot",
+    "symbol": "TAROT",
+    "price": 0.07962,
+    "decimals": 18,
+    "address": "0xa8cd6e4bf45724d3ac27f9e31e47ba4e399a7b52",
+    "logoURI": "https://thena.fi/images/tokens/TAROT.png"
+  },
+  {
+    "name": "THENA",
+    "symbol": "THE",
+    "price": 0.7641,
+    "decimals": 18,
+    "address": "0xf4c8e32eadec4bfe97e0f595add0f4450a863a11",
+    "logoURI": "https://thena.fi/logo.png"
+  },
+  {
+    "name": "TRON",
+    "symbol": "TRX",
+    "price": 0.069643,
+    "decimals": 18,
+    "address": "0x85eac5ac2f758618dfa09bdbe0cf174e7d574d5b",
+    "logoURI": "https://thena.fi/images/tokens/TRX.png"
+  },
+  {
+    "name": "Uniswap",
+    "symbol": "UNI",
+    "price": 6.92,
+    "decimals": 18,
+    "address": "0xbf5140a22578168fd562dccf235e5d43a02ce9b1",
+    "logoURI": "https://thena.fi/images/tokens/UNI.png"
+  },
+  {
+    "name": "USD+",
+    "symbol": "USD+",
+    "price": 1.001,
+    "decimals": 6,
+    "address": "0xe80772eaf6e2e18b651f160bc9158b2a5cafca65",
+    "logoURI": "https://thena.fi/images/tokens/USD+.png"
+  },
+  {
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "price": 1.001,
+    "decimals": 18,
+    "address": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+    "logoURI": "https://thena.fi/images/tokens/USDC.png"
+  },
+  {
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "price": 1,
+    "decimals": 18,
+    "address": "0x55d398326f99059ff775485246999027b3197955",
+    "logoURI": "https://thena.fi/images/tokens/USDT.png"
+  },
+  {
+    "name": "Wrapped BNB",
+    "symbol": "WBNB",
+    "price": 308.5,
+    "decimals": 18,
+    "address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+    "logoURI": "https://thena.fi/images/tokens/WBNB.png"
+  },
+  {
+    "name": "Wrapped USDR",
+    "symbol": "wUSDR",
+    "price": 1.048,
+    "decimals": 9,
+    "address": "0x2952beb1326accbb5243725bd4da2fc937bca087",
+    "logoURI": "https://thena.fi/images/tokens/wUSDR.png"
+  },
+  {
+    "name": "XCAD Token",
+    "symbol": "XCAD",
+    "price": 1.25,
+    "decimals": 18,
+    "address": "0x431e0cd023a32532bf3969cddfc002c00e98429d",
+    "logoURI": "https://thena.fi/images/tokens/XCAD.png"
+  },
+  {
+    "name": "XRP Token",
+    "symbol": "XRP",
+    "price": 0.391549,
+    "decimals": 18,
+    "address": "0x1d2f0da169ceb9fc7b3144628db156f3f6c60dbe",
+    "logoURI": "https://thena.fi/images/tokens/XRP.png"
+  }
+]

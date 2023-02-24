@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="route-arrow" transform="translate(-540 -594.164)">
+    <rect id="Rectangle_11100" data-name="Rectangle 11100" width="24" height="24" rx="3" transform="translate(540 594.164)" fill="#0000af"/>
+    <g id="arrow" transform="translate(-35.538 120.626)">
+      <rect id="Rectangle_9207" data-name="Rectangle 9207" width="16" height="16" transform="translate(579.538 477.538)" fill="none"/>
+      <path id="dropdown-arrow" d="M151.2,2304.539l-1.007-1.006,5.256-5.256-5.256-5.256,1.007-1.007,6.263,6.263Z" transform="translate(433.902 -1812.742)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

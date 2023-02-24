@@ -56,10 +56,10 @@ export const Footer: FC = () => {
         <div className="mx-auto container-1 w-full relative lg:block">
           <div className="w-full content-wrapper-footer">
             <div className="links-wrapper">
-              <p>Copyright © 2023 Thena. All rights reserved.</p>
+              <p>Copyright © 2023 BullFi. All rights reserved.</p>
               <div className="flex items-center space-x-[14px]">
                 <a
-                  href="https://twitter.com/ThenaFi_"
+                  href="https://twitter.com/BullFi"
                   rel="noreferrer"
                   target="_blank">
                   <img
@@ -69,7 +69,7 @@ export const Footer: FC = () => {
                   />
                 </a>
                 <a
-                  href="https://medium.com/@ThenaFi"
+                  href="https://medium.com/@BullFi"
                   rel="noreferrer"
                   target="_blank">
                   <img
